@@ -185,3 +185,22 @@ footer {
 	color: white;
 	padding: 2% 3%;
 }
+
+
+@media only screen and (max-width:768px) {
+	#page-header nav {
+		float: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
