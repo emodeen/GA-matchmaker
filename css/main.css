@@ -42,6 +42,18 @@ p {
 	border-radius: 5px;
 }
 
+.hamburger {
+	background: #000;
+}
+
+.hamburgerRow {
+	background: #FFF;
+	height: 5px;
+	width: 30px;
+	padding: 5px;
+	margin-top: 10px;
+}
+
 #page-header {
 	background: black;
 	color: white;
