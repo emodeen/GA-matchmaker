@@ -44,6 +44,7 @@ p {
 
 .hamburger {
 	background: #000;
+	display: none;
 }
 
 .hamburgerRow {
@@ -218,6 +219,12 @@ footer {
 	#page-header nav li {
 		float: none;
 		display: block;
+	}
+
+	/* Hide the hamburger icon */
+	.hamburger {
+		background: #000;
+
 	}    
 }
 
