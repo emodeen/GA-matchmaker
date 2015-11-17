@@ -225,7 +225,11 @@ footer {
 	.hamburger {
 		background: #000;
 
-	}    
+	}
+
+	#navLinks {
+		display: none;
+	}	    
 }
 
 
