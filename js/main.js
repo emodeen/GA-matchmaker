@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$(".hamburger").on("click",function(event) {
-
+console.log('hamburger li clicked');
 		event.preventDefault();
 
 		$('#navLinks').toggleClass('open');
