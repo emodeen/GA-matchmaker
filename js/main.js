@@ -1,10 +1,8 @@
 $(document).ready(function() {
 
 	$(".hamburger").on("click",function(event) {
-console.log('hamburger li clicked');
-		event.preventDefault();
 
-		$('#navLinks').toggleClass('open');
+		event.preventDefault();
 
 		// If nav links are showing
 		if($('#navLinks').hasClass('open')) { 
