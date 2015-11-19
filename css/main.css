@@ -202,17 +202,18 @@ footer {
 
 @media only screen and (max-width:640px) {
 	#page-header h1 {
-		float: left;
+		/*float: left;*/
 		color: yellow;
 		font-family: 'Merriweather', serif;
 		font-size: 1.5em;
 		margin: 20px 0 0 0;
-		display: block;
+		width: 50%;
+		/*display: block;*/
 	}
 
 	#page-header nav {
-		float: none;
-		display: block;
+		float: right;
+		/*display: block;*/
 		width: 50%;
     }
 
