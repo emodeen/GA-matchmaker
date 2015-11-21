@@ -219,10 +219,30 @@ footer {
 		display: block;
 	}
 
+	h3 {
+		font-size: 1em;
+	}
+
+	h2 {
+		font-size: 1em;
+	}
+
+	p {
+		font-size: .8em;
+	}
+
+	.button {
+		font-size: .6em;
+	}
+
 	/* Hide the hamburger icon */
 	.hamburger {
 		background: #000;
 
+	}
+
+	.tagline {
+		font-size: 1em;
 	}
 
 	.down {
