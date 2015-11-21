@@ -4,13 +4,16 @@ $(document).ready(function() {
 
 		event.preventDefault();
 
-		// If nav links are showing
-		if($('#navLinks').hasClass('open')) { 
-			$('#navLinks').slideUp().removeClass('open');
+		// If nav links are down
+		if($('#nav-bar').hasClass('down')) { 
+			$('#nav-bar').removeClass('down');
+			$('#nav-bar').addClass('up');
 		} 
 
+		// Else if nav links are up
 		else { 
-			$('#navLinks').slideDown(150).addClass('open');			
+			$('#nav-bar').removeClass('up');
+			$('#nav-bar').addClass('down');			
 		}
 	});
 });

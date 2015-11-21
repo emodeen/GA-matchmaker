@@ -228,9 +228,13 @@ footer {
 
 	}
 
-	#navLinks {
-		display: none;
-	}	    
+	.down {
+		height: 500px;
+	}
+
+	.up {
+		height: 10px;
+	}	    		    
 }
 
 
@@ -244,3 +248,4 @@ footer {
 
 
 
+	
