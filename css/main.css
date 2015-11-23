@@ -96,6 +96,13 @@ p {
 #page-header nav strong a {
 }
 
+#meet-match-mobile {
+	display: none;
+}
+
+#meet-match {
+	display: block;
+}	
 
 .tagline {
 	font-family: 'Merriweather', serif;
@@ -218,6 +225,14 @@ footer {
 		float: none;
 		display: block;
 	}
+
+	#meet-match-mobile {
+		display: block;
+	}
+
+	#meet-match {
+		display: none;
+	}	
 
 	h3 {
 		font-size: 1em;
