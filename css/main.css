@@ -251,7 +251,13 @@ footer {
 
 	.up {
 		height: 100px;
-	}	    		    
+	}	   
+
+	.tout {
+		display: block;
+		float: none;
+		width: 100%;
+	}	   	 		    
 }
 
 
